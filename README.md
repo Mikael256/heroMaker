@@ -31,7 +31,7 @@ makes your markup active in the plugin.
 - **data-hero_picture="url"**
 set the background image according to the given address.
 - **data-hero_position="center"**
-set the position of the background picture (center, top, bottom, ...)
+set the position of the background picture (fixed, center, top, bottom, ...)
 - **data-hero_height="height"**
 set the height of the hero.
 Can be indicates in pixels (100px) or full screen (100vh)

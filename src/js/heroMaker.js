@@ -60,10 +60,16 @@ class HeroMaker
       "background-image": `url("${this.picture}")`,
       "background-size": `cover`
     };
-    this.$target.css("background-image", `url("${this.picture}")`);
-    this.$target.css("background-size", `cover`);
+    // this.$target.css("background-image", `url("${this.picture}")`);
+    // this.$target.css("background-size", `cover`);
     if(this.position)
-      targetCss["background-position"] = this.position;
+    {
+      if(this.position === "fixed")
+        targetCss["background-attachment"] = "fixed";
+      else
+        targetCss["background-position"] = this.position;
+    }
+
     if(this.height)
       targetCss.height = this.height;
     this.$target.css(targetCss);
