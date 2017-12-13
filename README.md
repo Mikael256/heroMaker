@@ -6,13 +6,18 @@ Hero Maker is a super easy to use hero screen maker for your web pages.
 ----
 ## How to
 1. join jquery plugin in your html just before </body>
-example: <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+example:
+```
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+```
 
 2. Add just after <script type="text/javascript" src="js/heroMaker.min.js"></script> (make sure your heroMaker.min.js is in the js folder of your website or change your src attribute accordingly.
 
 3. add data-hero="auto" to your body markup.
 example:
+```
 <body data-hero="auto">
+```
 
 4. put data-hero_target="true" in your markup attributes to make it targeted by the plugin and add data-hero_picture="url of your picture".
 
@@ -45,7 +50,8 @@ amount of blur applied (ex: 10px)
 
 Warning: blur still not functionnal for now!
 
-for more convenience, check the demo in the index.html file, the different attributes will be displayed.
+for more convenience, check the demo in the index.html file or [here](http://cepegra-labs.be/webdesign/2017/mvani/heroMaker/), the different attributes will be displayed.
+
 
 Enjoy!
 
