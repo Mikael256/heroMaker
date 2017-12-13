@@ -43,13 +43,19 @@ class HeroMaker
           break;
         case "blur":
           let blur = `blur(${this.effect.amount})`;
-          console.log(blur);
-          $back.css({
+          this.$target.css({
              'filter'         : blur,
              '-webkit-filter' : blur,
              '-moz-filter'    : blur,
              '-o-filter'      : blur,
              '-ms-filter'     : blur
+          });
+          $content.css({
+             'filter'         : "blur(0)",
+             '-webkit-filter' : "blur(0)",
+             '-moz-filter'    : "blur(0)",
+             '-o-filter'      : "blur(0)",
+             '-ms-filter'     : "blur(0)"
           });
           break;
       }

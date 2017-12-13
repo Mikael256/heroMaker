@@ -48,7 +48,7 @@ whole opacity of the effect applied (between 0 and 1).
 - **data-hero_amount="amount"**
 amount of blur applied (ex: 10px)
 
-Warning: blur still not functionnal for now!
+Warning: blur still not working proprerly for now!
 
 for more convenience, check the demo in the index.html file or [here](http://cepegra-labs.be/webdesign/2017/mvani/heroMaker/), the different attributes will be displayed.
 
