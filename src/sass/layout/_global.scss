@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.hero, .heroMaker__content
+{
+  display: flex;
+
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+
+  h1
+  {
+    font-family: arial;
+    font-size: 4em;
+  }
+  h2
+  {
+    font-family: arial;
+    font-size: 3em;
+  }
+  p
+  {
+    text-align: center;
+  }
+}
