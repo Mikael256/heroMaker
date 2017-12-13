@@ -30,7 +30,7 @@ example:
 makes your markup active in the plugin.
 - **data-hero_picture="url"**
 set the background image according to the given address.
-- **data-hero_position="center"**
+- **data-hero_position="position"**
 set the position of the background picture (fixed, center, top, bottom, ...)
 - **data-hero_height="height"**
 set the height of the hero.
